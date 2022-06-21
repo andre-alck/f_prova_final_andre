@@ -4,9 +4,11 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+
 import { CadastrarCarroComponent } from './cadastrar-carro/cadastrar-carro.component';
 import { ListarCarroComponent } from './listar-carro/listar-carro.component';
 import { CarrosComponent } from './carros/carros.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +16,7 @@ import { CarrosComponent } from './carros/carros.component';
     CadastrarCarroComponent,
     ListarCarroComponent,
     CarrosComponent,
+    NavbarComponent,
   ],
   imports: [
     BrowserModule,
